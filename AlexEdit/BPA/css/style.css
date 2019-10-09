@@ -77,12 +77,17 @@ img{
     border:none;
 }
 .carousel{
-    padding:20px;
-    background-color: white;
+    padding:50px;
+    background-image: url("../images/home-background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .directoryContainer{
-    background-color:#41A0CC;
+    background-color:#51C8FE;
     padding: .75rem 1.25rem;
+    padding-bottom: 100px;
 }
 .carouselImg{
     border-radius:20px;
@@ -90,11 +95,11 @@ img{
     width:1000px;
 }
 .separator{
-    background-color:white;
+    background-color: white;
     padding:5px;
 }
 
-#parallax {
+.parallax {
     /* The image used */
     background-image: url("../images/field-home.png");
     
@@ -107,6 +112,18 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+main {
+    background-image: url("../images/home-background.png");
+}
+
+.head-title {
+    background-color: #41A0CC;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 30px;
+    text-shadow: 2px 2px black;
 }
 .signupContainer{
     text-align:center;

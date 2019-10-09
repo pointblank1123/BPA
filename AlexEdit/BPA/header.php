@@ -15,6 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="icon" type="png" href="images/EW2.png" />
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
     <title>EPIC WIN | Home Page</title>
 </head>
 <body>
@@ -53,5 +54,11 @@
             </ul>
         </div>
     </nav>
+    <div class="row d-flex justify-content-center searchContainer">
+        <form action="">
+            <input type="text" class="searchBar" placeholder="Search" size="100%">
+            <Button type="submit" class="btn"><i class="fas fa-search searchIcon"></i></button>
+        </form>
+    </div>
 
         
