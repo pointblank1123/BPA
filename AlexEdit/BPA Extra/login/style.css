@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+img {
+    width: 100px;
+}
+
+
+.spacing {
+    margin-top: 15px;
+}
+
+p, h1, h2 {
+    font-family: 'Lato', sans-serif;
+}

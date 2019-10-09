@@ -1,0 +1,119 @@
+/*
+#2786B3
+#6BD0FF
+#51C8FE
+#296480
+#9EE0FF
+#52C8FF
+#4F7080
+#41A0CC
+
+Icons:
+fab fa-facebook
+fab fa-instagram
+fab fa-paypal
+fab fa-twitter
+fab fa-youtube
+fab fa-cc-discover
+fab fa-cc-mastercard
+fab fa-cc-visa
+fas fa-shopping-cart
+
+
+Items:
+Nikel Gravity Flats shoes
+*/
+
+body {
+    background-color: #41A0CC;
+}
+.nav-link{
+    color: white !important;
+
+}
+.nav-link:hover{
+    background-color: rgba(121, 181, 209, 0.678);
+    border-bottom: solid 2px white;
+}
+
+.footerIcons{
+    font-size:2em;
+    color: #2786B3;
+    padding: 10px;
+}
+footer{
+    text-align:center;
+    bottom:0px;
+    width:100%;
+}
+.directoryImg{
+    padding:5px;
+    margin:0px;
+}
+img{
+    width:400px;
+}
+.itemsCol{
+    padding:50px;
+}
+.itemsContainer{
+    background-color:#9EE0FF;
+}
+.searchContainer{
+    background-color:#296480;
+    padding:5px;
+}
+.searchBar{
+    border:none;
+    padding:2px;
+}
+.searchIcon{
+    font-size:1.5em;
+    color:white;
+    padding:2px;
+}
+.btn{
+    background-color:white;
+    border:none;
+}
+.carousel{
+    padding:20px;
+    background-color: white;
+}
+.directoryContainer{
+    background-color:#41A0CC;
+    padding: .75rem 1.25rem;
+}
+.carouselImg{
+    border-radius:20px;
+    box-shadow:2px 2px 2px black;
+    width:1000px;
+}
+.separator{
+    background-color:white;
+    padding:5px;
+}
+
+#parallax {
+    /* The image used */
+    background-image: url("../images/field-home.png");
+    
+    /* Set a specific height */
+    height: 200px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.signupContainer{
+    text-align:center;
+    border:2px solid #296480;
+}
+.signupSheet{
+    border-radius:3px;
+    padding:2px;
+    margin:10px;
+}
