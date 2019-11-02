@@ -1,0 +1,7 @@
+CREATE TABLE userInfo (
+    UserID INT(11) NOT NULL PRIMARY KEY,
+    UserEmail VARCHAR(60) NOT NULL,
+    Pwd VARCHAR(60) NOT NULL,
+    fName VARCHAR(30) NOT NULL,
+    lname VARCHAR(30) NOT NULL
+);

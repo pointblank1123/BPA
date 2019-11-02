@@ -1,0 +1,195 @@
+/*
+
+Reference:
+
+*/
+
+.reference-colors {
+    color:
+#2786B3
+#6BD0FF
+#51C8FE
+#296480
+#9EE0FF
+#52C8FF
+#4F7080
+#41A0CC;
+}
+/*
+Icons:
+fab fa-facebook
+fab fa-instagram
+fab fa-paypal
+fab fa-twitter
+fab fa-youtube
+fab fa-cc-discover
+fab fa-cc-mastercard
+fab fa-cc-visa
+fas fa-shopping-cart
+
+
+Items:
+Nikel Gravity Flats shoes
+*/
+
+/*
+Body
+*/
+body {
+    background-color: #41A0CC;
+    overflow-x: hidden;
+}
+.nav-link{
+    color: white !important;
+
+}
+.nav-link:hover{
+    background-color: rgba(121, 181, 209, 0.678);
+    border-bottom: solid 2px white;
+}
+
+/*
+Footer
+*/
+
+.footerIcons{
+    font-size:2em;
+    color: #2786B3;
+    padding: 10px;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+footer{
+    text-align:center;
+    bottom:0px;
+    width:100%;
+    min-height: 200px;
+}
+
+/*
+Links
+*/
+.directoryImg{
+    padding:5px;
+    margin:0px;
+}
+img{
+    width:400px;
+}
+.itemsCol{
+    padding:50px;
+}
+.itemsContainer{
+    background-color:#9EE0FF;
+}
+.searchContainer{
+    background-color:#296480;
+    padding:5px;
+}
+.searchBar{
+    border:none;
+    padding:2px;
+}
+.searchIcon{
+    font-size:1.5em;
+    color:white;
+    padding:2px;
+}
+.btn{
+    background-color:white;
+    border:none;
+}
+
+/*
+Content
+*/
+.intro-image {
+    padding:50px;
+    background-image: url("../images/home-background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-image-border {
+    border-left: 80px solid #51c7fe60;
+    border-right: 80px solid #51c7fe60;
+}
+
+.intro-image-bg {
+    background-image: url("../images/rocky1.2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 2%;
+    
+}
+
+.intro-image-bg h1 {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow: 2px 2px black;
+    background-color: #2964805b;
+    padding: 20px;
+}
+
+.directoryContainer{
+    background-color:#51C8FE;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.separator{
+    background-color: white;
+    padding:5px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/field-home.png");
+    
+    /* Set a specific height */
+    height: 200px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main {
+    background-image: url("../images/home-background.png");
+}
+
+.head-title {
+    background-color: #41A0CC;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.head-title h1 {
+    font-size: 4em;
+}
+
+/* 
+Login and Sign Up
+*/
+.signupContainer{
+    text-align:center;
+    border:2px solid #296480;
+}
+.signupSheet{
+    border-radius:3px;
+    padding:2px;
+    margin:10px;
+}
