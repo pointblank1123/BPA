@@ -4,8 +4,8 @@ if(isset($_POST['signUpSubmit'])){
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $email = $_POST['email'];
-    $password = $_POST['pwd'];
-    $confirmPass = $_POST['pwdConfirm'];
+    $password = $_POST['pass'];
+    $confirmPass = $_POST['passConfirm'];
 
     if(empty($fname) || empty($lname) || empty($email) || empty($password) || empty($confirmPass)){ // are any fields empty
         header("Location: ../signup/signup.php?error=emptyfield");
