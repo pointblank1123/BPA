@@ -1,5 +1,12 @@
 <?php
-    require "header.php";
+   session_start();
+   if(isset($_SESSION['Id'])==false){
+       require 'header.php';
+   }
+   elseif(isset($_SESSION['Id'])==true){
+       require 'LoggedHeader.php';
+   }
+
 ?>
 
     <div class="parallax">
@@ -30,22 +37,27 @@
             </div>
         </div>
 
-        
+        <hr class="seperator">
         
         <div class="directoryContainer">
             <div class="row">
-                <div class="col-md-4 directoryImg"><img src="images/rocky2.jpg" alt="">
-                    <h3 class="text-center">Equipment</h3>
+                <div class="col-md-4 directoryImg">
+                    <img src="images/baseball1.2.jpg" alt="">
+                    <a href="shop.php"><h3 class="text-center catalog-text">Equipment</h3></a>
                 </div>
-                <div class="col-md-4 directoryImg"><img src="images/rocky3.png" alt="">
-                    <h3 class="text-center">Shoes</h3>
+                <div class="col-md-4 directoryImg">
+                    <img src="images/shoes1.2.jpg" alt="">
+                    <a href="shop.php"><h3 class="text-center catalog-text">Shoes</h3></a>
                 </div>
-                <div class="col-md-4 directoryImg"><img src="images/rocky2.jpg" alt="">
-                    <h3 class="text-center">Apparel</h3>
+                <div class="col-md-4 directoryImg">
+                    <img src="images/clothes1.2.jpg" alt="">
+                    <a href="shop.php"><h3 class="text-center catalog-text">Apparel</h3></a>
                 </div>
             </div>
         </div>
     </main>
+
+    <hr class="seperator">
     
 
 <?php

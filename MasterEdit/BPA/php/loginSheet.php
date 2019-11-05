@@ -20,15 +20,15 @@ if(isset($_POST['login'])){
             mysqli_stmt_execute($stmt);
             $results = mysqli_stmt_get_result($stmt);
             if($row = mysqli_fetch_assoc($results)){
-                //$pwdCheck = password_verify($password, $row['pwdUsers']) for hashed password
+                $pwdCheck = password_verify($password, $row['pwd']); //for hashed password
                 if($password !== $row['Pwd']){
                     header("Location: ../index.php?error=wrongpwd");
                     exit();
                 }else if($password == $row['Pwd']){
-                    $_SESSION['Id'] = $row['UserId'];
+                    $_SESSION['Id'] = 1;
                     $_SESSION['fname']= $row['fName'];
                     $_SESSION['lname']= $row['lname'];
-                    header("Location: ../LoggedHeader.php?loggedIn");
+                    header("Location: ../index.php?loggedIn");
                     exit();
                 }else{
                     header("Location: ../login.php?error=wrongpwd");

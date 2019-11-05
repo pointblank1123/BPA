@@ -15,7 +15,7 @@ if(isset($_POST['signUpSubmit'])){
         exit(); 
     }
     elseif($password !== $confirmPass){ // do password and confirm password match
-        header("Location: signup.php?error=passnotmatch");
+        header("Location: signUp.php?error=passnotmatch");
         exit();
     }else{ // does this email already exist
         $sql = "SELECT UserEmail FROM userinfo WHERE UserEmail=?";
@@ -38,9 +38,9 @@ if(isset($_POST['signUpSubmit'])){
                     header("Location: ../signUp.php?error=sqlerror2");
                     exit();
                 }else{
-                    //$hashedPwd = password_hash($password, PASSWORD_DEFAULT); for hashed password
+                    $hashedPwd = password_hash($password, PASSWORD_DEFAULT); //for hashed password
 
-                    mysqli_stmt_bind_param($stmt, "ssss", $fname, $lname, $email, $password); // replace $password w/ $hashedPwd for hashed password
+                    mysqli_stmt_bind_param($stmt, "ssss", $fname, $lname, $email, $hashedPwd); // replace $password w/ $hashedPwd for hashed password
                     mysqli_stmt_execute($stmt);
                     header("Location: ../index.php?success=signupsuccess");
                     exit();

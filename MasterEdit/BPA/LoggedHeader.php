@@ -1,6 +1,5 @@
 <?php
-    session_start();
-
+    
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +38,7 @@
                     <a class="nav-link" href="shop.php">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Find Us</a>
+                    <a class="nav-link" href="findUs.php">Find Us</a>
                 </li>
             </ul>
         </div>
@@ -51,7 +50,7 @@
                     <a class="nav-link" href="accountPage.php">My Account</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="signUp.php">Log Out</a>
+                    <a class="nav-link" href="php/logout.php">Log Out</a>
                 </li>
             </ul>
         </div>

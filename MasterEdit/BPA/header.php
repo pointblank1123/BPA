@@ -1,6 +1,4 @@
-<?php
-    session_start();
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +36,7 @@
                     <a class="nav-link" href="shop.php">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Find Us</a>
+                    <a class="nav-link" href="findUs.php">Find Us</a>
                 </li>
             </ul>
         </div>
